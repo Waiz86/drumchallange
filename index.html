@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> Drum kit pressed any given keys or click to play drum sound</h1>   
+
+
+<div class="keys">
+    <div class="key" id = "boomClick" data-key="65">
+        <kbd>A</kbd>
+        <span>boom</span>
+        <audio data-key="65" id="boom" src="./sounds/boom.wav"></audio>
+    </div>
+    <div class="key"  id = "clapClick" data-key="83">
+        <kbd>S</kbd> 
+        <span>clap</span>
+        <audio data-key="83" id="clap" src="./sounds/clap.wav"></audio>
+    </div>
+    <div class="key" id= "hihatClick" data-key ="77">
+        <kbd>M</kbd>
+        <span>hihat</span>
+        <audio data-key="77" id="hihat" src="./sounds/hihat.wav"></audio>
+    </div>
+    <div class="key" id ="kickClick" data-key="76">
+        <kbd>L</kbd>
+        <span>kick</span>
+        <audio data-key="76" id="kick"  src="./sounds/kick.wav"></audio>
+    </div>
+    <div class="key" id ="openhatClick" data-key="82">
+        <kbd>R</kbd>
+        <span>openhat</span>
+        <audio data-key="82" id="openhat" src="./sounds/openhat.wav"></audio>
+    </div>
+    <div class="key" id ="rideClick" data-key="80">
+        <kbd>P</kbd>
+        <span>ride</span>
+        <audio data-key="80" id ="ride" src="./sounds/ride.wav"></audio>
+    </div>
+    <div class="key" id="snareClick" data-key="89">
+        <kbd>Y</kbd>
+        <span>snare</span>
+        <audio data-key="89" id ="snare" src="./sounds/snare.wav"></audio>
+    </div>
+    <div class="key" id="tinkClick" data-key="66">
+        <kbd>B</kbd>
+        <span>tink</span>
+        <audio data-key="66" id ="tink" src="./sounds/tink.wav"></audio>
+    </div>
+    <div class="key" id="tomClick" data-key="74">
+        <kbd>J</kbd>
+        <span>tom</span>
+        <audio data-key="74" id="tom" src="./sounds/tom.wav"></audio>
+    </div>
+</div>
+
+<script src="./drumkit.js"></script>
+
+</body>
+
+</html>
